@@ -1,10 +1,10 @@
 import java.io.IOException;
 
-public class Main {
+public class Application {
 
 	public static void main(String[] args) throws IOException {
 
-		abridorDeEngrama abridor = new abridorDeEngrama();
+		AbridorDeEngrama abridor = new AbridorDeEngrama();
 
 		Terminal.writeLine("Aperte a tecla ENTER para abrir o engrama!");
 		Terminal.readKey();
